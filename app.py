@@ -309,7 +309,7 @@ detector = load_detector()
 #  TAB 1 – Dataset & Training PCA
 # ══════════════════════════════════════════════
 with tab1:
-    st.markdown('<p class="section-label">Langkah 1–5 PDF</p>', unsafe_allow_html=True)
+    st.markdown('<p class="section-label">Train Data</p>', unsafe_allow_html=True)
     st.subheader("Upload Foto Referensi (Database Wajah)")
 
     st.markdown("""
@@ -449,7 +449,7 @@ with tab1:
 #  TAB 2 – Bandingkan Dua Wajah
 # ══════════════════════════════════════════════
 with tab2:
-    st.markdown('<p class="section-label">Langkah 6–8 PDF · Cosine & Euclidean</p>',
+    st.markdown('<p class="section-label">Cosine & Euclidean</p>',
                 unsafe_allow_html=True)
     st.subheader("Bandingkan Dua Gambar Wajah")
 
@@ -576,7 +576,7 @@ with tab2:
 #  TAB 3 – Identifikasi dari Database
 # ══════════════════════════════════════════════
 with tab3:
-    st.markdown('<p class="section-label">recognize_face() dari PDF</p>',
+    st.markdown('<p class="section-label">recognize_face()</p>',
                 unsafe_allow_html=True)
     st.subheader("Kenali Wajah dari Database")
     st.markdown("""
